@@ -1,0 +1,17 @@
+[alias]
+  co  = checkout
+  com = checkout master
+  cn  = checkout -B
+  ci  = commit -m
+  cam = commit --amend
+  st  = status
+  br  = branch
+  db  = branch -d
+  m   = checkout master && status && pull
+  p   = remote prune origin && pull
+  un  = reset HEAD --
+  a   = add -A .
+  aci = !git add -A . && git commit -m
+  lg  = log -20 --reverse --pretty=format:'%C(blue)%h%Creset %C(green)%<|(22,trunc)%ar%Creset %C(yellow)%<|(39,trunc)%an%Creset %<(40,trunc)%s'
+  cfg = !notepad '~/.gitconfig'
+  cfg2= !'C:/Program Files (x86)/Notepad++/notepad++.exe' '~/.gitconfig'

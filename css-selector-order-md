@@ -1,0 +1,164 @@
+CSS Selector Order
+==================
+
+Differences from Jens Oliver Meiert's [How to Order CSS Selectors](http://meiert.com/en/blog/20130130/how-to-order-css-selectors/):
+* Removed hidden elements that are not normally styled (e.g.: `head`)
+* Moved **Phrasing** section to no. 5
+
+
+1. Universal
+------------
+* `*`
+
+
+
+2. Document
+-----------
+* `html`
+
+
+
+3. Sectioning and Structuring
+-----------------------------
+* `body`
+* `header`
+* `footer`
+* `nav`
+* `main`
+* `article`
+* `aside`
+* `section`
+* `p`
+* `pre`
+* `blockquote`
+* `figure`
+* `figcaption`
+* `address`
+* `summary`
+* `details`
+* `div`
+
+
+
+4. Headings
+-----------
+* `hgroup`
+* `h1`
+* `h2`
+* `h3`
+* `h4`
+* `h5`
+* `h6`
+
+
+
+5. Phrasing
+------------
+* `a`
+* `strong`
+* `em`
+* `b`
+* `i`
+* `u`
+* `s`
+* `sup`
+* `sub`
+* `small`
+* `abbr`
+* `dfn`
+* `mark`
+* `del`
+* `ins`
+* `q`
+* `cite`
+* `data`
+* `progress`
+* `time`
+* `meter`
+* `code`
+* `var`
+* `samp`
+* `kbd`
+* `keygen`
+* `bdi`
+* `bdo`
+* `ruby`
+* `rt`
+* `rp`
+* `span`
+
+
+
+6. Lists
+--------
+* `ul`
+* `ol`
+* `li`
+* `dl`
+* `dt`
+* `dd`
+* `menu`
+* `menuitem`
+
+
+
+7. Media
+--------
+* `canvas`
+* `object`
+* `embed`
+* `img`
+* `audio`
+* `video`
+* `track`
+* `map`
+* `area`
+* `svg`
+* `math`
+* `iframe`
+
+
+
+8. Forms
+--------
+* `form`
+* `fieldset`
+* `legend`
+* `label`
+* `input`
+* `button`
+* `select`
+* `optgroup`
+* `option`
+* `datalist`
+* `textarea`
+* `output`
+
+
+
+9. Tables
+---------
+* `table`
+* `caption`
+* `colgroup`
+* `col`
+* `thead`
+* `tfoot`
+* `tbody`
+* `tr`
+* `th`
+* `td`
+
+
+
+10. Misc
+--------
+* `hr`
+* `dialog`
+
+
+
+11. Attributes
+--------------
+* `.class`
+* `#id`
