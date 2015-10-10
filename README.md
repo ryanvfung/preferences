@@ -26,6 +26,40 @@ Standard templates
 Code style
 ----------
 
+### Universal code style
+
+An idealised summary of my code style, subject to change to compromise between code-writing efficiency and clarity
+
+* Indentation
+  * Prefer to use 2 spaces for indentation
+    * For languages such as CSS, HTML, Jade, JavaScript, LaTeX, SCSS
+* String quotes
+  * For markup languages, prefer to use double quotes (`"`)
+    * For languages such as CSS, HTML
+  * For programming and template languages, prefer to use single quotes (`'`)
+    * For languages such as Jade, JavaScript, SCSS, Python
+* Line spacing
+  * Inherits from Python's [PEP 8](https://www.python.org/dev/peps/pep-0008/#blank-lines) guidelines flexibly
+  * One blank line to separate/delimit related content
+  * Two blank lines to separate a group of related content
+  * Three or more blank lines to separate a top level section of content
+* Inline comments
+  * Inherits from Python's [PEP 8](https://www.python.org/dev/peps/pep-0008/#comments) guidelines
+  * At least two spaces before the comment
+  * One space after the comment character
+* Showing hierarchy/organisation with comments
+  * Top level headings are followed by a new line comment of 50 equals signs (`=`) (similar to Markdown syntax)
+    * Top level headings can instead be written as a multi-line block of ASCII art for identification through editor minimaps
+  * Primary headings are followed by a new line comment of 50 hyphens (`-`)
+  * Secondary headings have two equals signs (`==`) appended to the comment start sequence
+  * Tertiary headings have two hyphens (`--`) appended to the comment start sequence
+  * Instructions have a question mark (`?`) appended to the comment start sequence
+* Other code styles inheritance
+  * From Python's PEP 8 guidelines
+    * Maximum Line Length (79 characters)
+    * Whitespace in Expressions and Statements
+
+
 ### HTML/CSS
 * [HTML class namespacing](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) with [BEM class naming convention](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
   * Class names are written as lowercase words separated by hyphens (`-`) and <span style="color:red">avoid using camel case or underscores</span>
