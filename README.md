@@ -48,12 +48,26 @@ An idealised summary of my code style, subject to change to compromise between c
   * At least two spaces before the comment
   * One space after the comment character
 * Showing hierarchy/organisation with comments
-  * Top level headings are followed by a new line comment of 50 equals signs (`=`) (similar to Markdown syntax)
-    * Top level headings can instead be written as a multi-line block of ASCII art for identification through editor minimaps
-  * Primary headings are followed by a new line comment of 50 hyphens (`-`)
-  * Secondary headings have two equals signs (`==`) appended to the comment start sequence
-  * Tertiary headings have two hyphens (`--`) appended to the comment start sequence
-  * Instructions have a question mark (`?`) appended to the comment start sequence
+  * Headings uses the Markdown syntax
+  * Primary headings are followed by a new line comment of 50 equals signs (`=`)
+    * Primary headings can instead be written as a multi-line block of ASCII art for identification through editor minimaps
+  * Secondary headings are followed by a new line comment of 50 hyphens (`-`)
+  * Lower level headings have hashes (`#`) appended to the comment start sequence after a space
+  * Instructions have a question mark (`?`) appended to the comment start sequence after a space
+  * Example:
+    ```
+    // Primary heading
+    // ==================================================
+
+    // Secondary heading
+    // --------------------------------------------------
+
+    // ### Tertiary heading
+
+    // #### Quaternary heading
+
+    // ? Instructions
+    ```
 * Other code styles inheritance
   * From Python's PEP 8 guidelines
     * Maximum Line Length (79 characters)
