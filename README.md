@@ -40,7 +40,7 @@ An idealised summary of my code style, subject to change to compromise between c
     * For languages such as Jade, JavaScript, SCSS, Python
 * Line spacing
   * Inherits from Python's [PEP 8](https://www.python.org/dev/peps/pep-0008/#blank-lines) guidelines flexibly
-  * One blank line to separate/delimit related content
+  * One blank line to separate related content
   * Two blank lines to separate a group of related content
   * Three or more blank lines to separate a top level section of content
 * Inline comments
@@ -49,13 +49,14 @@ An idealised summary of my code style, subject to change to compromise between c
   * One space after the comment character
 * Showing hierarchy/organisation with comments
   * Headings uses the Markdown syntax
-  * Primary headings are followed by a new line comment of 50 equals signs (`=`)
+  * Primary headings are preceded and followed by a line comment of 50 equals signs (`=`)
     * Primary headings can instead be written as a multi-line block of ASCII art for identification through editor minimaps
   * Secondary headings are followed by a new line comment of 50 hyphens (`-`)
   * Lower level headings have hashes (`#`) appended to the comment start sequence after a space
   * Instructions have a question mark (`?`) appended to the comment start sequence after a space
   * Example:
     ```
+    // ==================================================
     // Primary heading
     // ==================================================
 
