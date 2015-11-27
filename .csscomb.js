@@ -25,13 +25,13 @@
   "sort-order": [
 
     // Preprocessors
-    // --------------------
+    // --------------------------------------------------
     "$import",
     "$variable",
     "$include",
 
     // Positioning
-    // --------------------
+    // --------------------------------------------------
     "position",
     "float",
     "clear",
@@ -42,7 +42,7 @@
     "left",
 
     // Display & box model
-    // --------------------
+    // --------------------------------------------------
     "display",
     "overflow",
     "overflow-x",
@@ -63,6 +63,18 @@
     "border-width",
     "border-style",
     "border-color",
+    "border-top",
+    "border-right",
+    "border-bottom",
+    "border-left",
+    "border-top-width",
+    "border-right-width",
+    "border-bottom-width",
+    "border-left-width",
+    "border-top-color",
+    "border-right-color",
+    "border-bottom-color",
+    "border-left-color",
     "padding",
     "padding-top",
     "padding-right",
@@ -79,7 +91,7 @@
     "transform-style",
 
     // Colours and appearance
-    // --------------------
+    // --------------------------------------------------
     "animation",
     "animation-name",
     "animation-duration",
@@ -104,22 +116,25 @@
     "color",
 
     // Typography
-    // --------------------
+    // --------------------------------------------------
     "font",
     "font-family",
     "font-size",
+    "font-weight",
     "font-style",
+    "font-variant",
     "line-height",
     "text",
     "text-align",
     "text-decoration",
     "text-transform",
+    "text-overflow",
     "vertical-align",
     "word-wrap",
     "white-space",
 
     // Other
-    // --------------------
+    // --------------------------------------------------
     "list-style",
     "list-style-type",
     "content",
